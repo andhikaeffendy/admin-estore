@@ -16,6 +16,10 @@
       }
     </style>
   </head>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Tabler Core -->
+  <script src="{{ asset('tabler/dist/js/tabler.min.js') }}"></script>
   <body class="layout-fluid layout-navbar-fixed layout-sidebar-fixed layout-dark">
 
     <div class="page">
@@ -77,5 +81,6 @@
 
     <!-- Tabler Core -->
     <script src="{{ asset('tabler/dist/js/tabler.min.js') }}"></script>
+    @yield('scripts')
   </body>
 </html>
